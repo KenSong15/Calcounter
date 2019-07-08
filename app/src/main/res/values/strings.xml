@@ -12,5 +12,6 @@
     <string name="food_total_text">Total Calories:</string>
     <string name="cal_text">Cal.</string>
     <string name="food_items_num">Food Items:</string>
+    <string name="something">Some thing to say!</string>
 
 </resources>
