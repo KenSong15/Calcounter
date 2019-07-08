@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class Food implements Serializable {
 
-    private static final long
+    private static final long serialCersionUID = 10L;
 
     private String foodName;
     private int calories;
