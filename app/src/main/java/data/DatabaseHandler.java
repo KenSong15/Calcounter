@@ -26,7 +26,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         //create table
-        String CREATE_TABLE = "CREATE TABLE " + Constants.DATE_NAME + "(" +
+        String CREATE_TABLE = "CREATE TABLE " + Constants.TABLE_NAME + "(" +
                 Constants.KEY_ID + " INTEGER PRIMARY KEY, " + Constants.FOOD_NAME +
                 " TEXT, " + Constants.FOOD_CALORIES_NAME + " INT, " + Constants.DATE_NAME + " LONG);";
 
