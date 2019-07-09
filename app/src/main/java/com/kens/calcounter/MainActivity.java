@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
             foodCals.setText("");
 
             //take user to next activity and show the list
-            //startActivity(new Intent(MainActivity.this, DisplayFoodsActivity.class));
+            startActivity(new Intent(MainActivity.this, DisplayFoodsActivity.class));
 
         }
 
